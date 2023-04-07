@@ -4,7 +4,7 @@
 [![Packagist](https://img.shields.io/packagist/v/redbox/whois.svg)](https://packagist.org/packages/redbox/whois)
 [![Unit Tests](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml)
 [![PhpCS](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml)
-[![PhpCS](https://raw.githubusercontent.com/johnnymast/redbox-whois/master/badges/coverage-badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/pest-coverage.yaml)
+[![Test Coverage PHP Package](https://github.com/johnnymast/redbox-whois/actions/workflows/pest-coverage.yaml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/pest-coverage.yaml)
 
 
 This is just a skeleton for my php packages.
