@@ -92,7 +92,7 @@ try {
 
 ## Special thanks
 
-For this project, I needed a [list](https://github.com/johnnymast/redbox-whois/blob/master/src/Servers.php) of TLDs and their whois servers. 
+I needed a [list](https://github.com/johnnymast/redbox-whois/blob/master/src/Servers.php) of TLDs and their whois servers. 
 This list of servers I found in the [PHP WHOIS](https://github.com/io-developer/php-whois) project. If you are looking for even more options to configure, check out that project.
 Besides more options, it will also support php versions ranging from 5.6 to the latest and current PHP version.
 
