@@ -1,15 +1,19 @@
-[![Build Status](https://travis-ci.org/johnnymast/redbox-package-skeleton.svg?branch=master)](https://travis-ci.org/johnnymast/redbox-package-skeleton)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/johnnymast/redbox-package-skeleton/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-package-skeleton/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/redbox-package-skeleton/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-package-skeleton/?branch=master)
 
 # Redbox-whois (WORK IN PROGRESS)
- 
+
+[![Packagist](https://img.shields.io/packagist/v/redbox/whois.svg)](https://packagist.org/packages/redbox/whois)
+[![Unit Tests](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml)
+[![PhpCS](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml)
+[![PhpCS](https://raw.githubusercontent.com/johnnymast/redbox-whois/master/badges/coverage-badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/pest-coverage.yaml)
+
+
 This is just a skeleton for my php packages.
 
-## installation 
+
+## Installation
 
 ```bash
-$ composer create-project -sdev redbox/redbox-package-skeleton ./skel/
+$ composer require redbox/whois
 ```
 
 
