@@ -14,13 +14,18 @@ declare(strict_types=1);
 
 require 'autoload.php';
 
+use Redbox\Whois\Exceptions\WhoisException;
 use Redbox\Whois\WhoisClient;
 
 try {
 
     $whois = new WhoisClient();
-    echo $whois->lookup('google.com')
+    $result = $whois->lookup('google.nl')
         ->getOutput();
 
-} catch (Exception $e) {
+    echo $result;
+
+} catch (WhoisException $e) {
+    echo $e->getMessage();
 }
+

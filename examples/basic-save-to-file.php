@@ -15,16 +15,17 @@ declare(strict_types=1);
 require 'autoload.php';
 
 use Redbox\Whois\Exceptions\WhoisException;
-use Redbox\Whois\Exceptions\WhoisTransportException;
 use Redbox\Whois\WhoisClient;
 
-$whois = new WhoisClient();
 try {
 
-    $output = $whois->lookup('google.com')
+    $whois = new WhoisClient();
+    $output = $whois->lookup('google.fr')
         ->saveOutput('output.txt')
         ->getOutput();
 
-} catch (WhoisException|WhoisTransportException $e) {
+    echo $output;;
 
+} catch (WhoisException $e) {
+    echo $e->getMessage();
 }

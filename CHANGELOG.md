@@ -1,2 +1,4 @@
-## 1.0
+## Version 0.10
+
+ * Initial release
 
