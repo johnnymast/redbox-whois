@@ -1,4 +1,4 @@
-# Redbox-whois (WORK IN PROGRESS)
+# Redbox-whois
 
 [![Packagist](https://img.shields.io/packagist/v/redbox/whois.svg)](https://packagist.org/packages/redbox/whois)
 [![Unit Tests](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Tests.yml)
