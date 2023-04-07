@@ -90,7 +90,7 @@ try {
 
 ```
 
-### Special thanks
+## Special thanks
 
 I wrote the logic of this package my self but when it was finished i seed a [large array](https://github.com/johnnymast/redbox-whois/blob/master/src/Servers.php) of TLD's and their whois servers.
 The list of servers i found in the [PHP WHOIS](https://github.com/io-developer/php-whois) project. If you are looking for a even more options
