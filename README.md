@@ -65,7 +65,7 @@ try {
 
 ### Save the output to a file
 
-The saveOutput function has an optional parameter which is the path to the file. If you do not specify a path the
+TThe saveOutput function has an optional parameter: the path to the file. If you do not specify a path the
 output will be stored as whois.txt. The saveOutput function will return the WhoisClient object so you can chain it with
 getOutput() if you wish.
 
