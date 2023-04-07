@@ -60,6 +60,9 @@ try {
 
 ```
 
+
+
+
 ### Save the output to a file
 
 The saveOutput function has an optional parameter which is the path to the file. If you do not specify a path the
@@ -86,6 +89,13 @@ try {
 
 
 ```
+
+### Special thanks
+
+I wrote the logic of this package my self but when it was finished i seed a [large array](https://github.com/johnnymast/redbox-whois/blob/master/src/Servers.php) of TLD's and their whois servers.
+The list of servers i found in the [PHP WHOIS](https://github.com/io-developer/php-whois) project. If you are looking for a even more options
+to configure you should check out that project. Besides more options it will also support php versions ranging from 5.6 to the latest and current
+PHP version. 
 
 # The MIT License (MIT)
 
