@@ -5,8 +5,7 @@
 [![PhpCS](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml/badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/Phpcs.yaml)
 [![Test Coverage PHP Package](https://github.com/johnnymast/redbox-whois/blob/master/badges/coverage-badge.svg)](https://github.com/johnnymast/redbox-whois/actions/workflows/pest-coverage.yaml)
 
-This is a Whois library i wrote to use for reconnaissance missions for my pen testing efforts. You could
-use it your self because i make it really easy to use.
+This is a Whois library I wrote to use for reconnaissance missions for my pen testing efforts. You could use it yourself because I made it easy to use.
 
 ## Installation
 
@@ -16,7 +15,7 @@ $ composer require redbox/whois
 
 ## Usage
 
-The package is flexible and easy use. Here are a few examples of how you could use the package.
+The package is flexible and easy to use. Here are a few examples of how you could use the package.
 
 ### Simple static call
 
@@ -39,7 +38,7 @@ try {
 ### Use it without the static call
 
 The static call mentioned above is just a clever wrapper around the lookup function. You can instantiate the WhoisClient
-your self and call the lookup function. Note as well we are using the getOutput() function to get the output of the
+yourself and call the lookup function. Note as well we are using the getOutput() function to get the output of the
 lookup.
 
 ```php
@@ -63,7 +62,7 @@ try {
 
 ### Save the output to a file
 
-The saveOutput function has an optional parameter which is the path to the file. If you don not specify a path the
+The saveOutput function has an optional parameter which is the path to the file. If you do not specify a path the
 output will be stored as whois.txt. The saveOutput function will return the WhoisClient object so you can chain it with
 getOutput() if you wish.
 
