@@ -60,9 +60,6 @@ try {
 
 ```
 
-
-
-
 ### Save the output to a file
 
 The saveOutput function has an optional parameter: the path to the file. If you do not specify a path the
